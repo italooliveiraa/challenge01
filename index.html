@@ -13,14 +13,24 @@
         <h1 class="titulo__unico">Bem-Vindo ao Decodificador de palavras</h1>
     </header>
     <main>
-        <section class="cripto">
-            <input class="cripto__criptografia" type="text" name="criptografar">
-            <button onclick="criptografar()" id="escuro" class="cripto__btn">CRIPTOGRAFAR</button>
-        </section>
+        <section>
+            <div class="div__texto">
+                <p class="texto__cripto"></p>
 
-        <section class="descripto">
-            <input class="cripto__descriptografia" type="text" name="descriptografar">
-            <button onclick="descriptografar()" id="claro" class="cripto__btn">DESCRIPTOGRAFAR</button>
+            </div>
+            <div class="div__botao">
+                <button class="btn__copiar" onclick="copiarTexto()" id="copiar__texto">COPIAR TEXTO</button>
+            </div>
+        </section>
+        <section class="cripto__pai">
+            <section class="cripto">
+                <input id="criptografia" type="text" placeholder="Sua mensagem" name="criptografar">
+                <button class="cripto__btn" onclick="criptografar()" id="escuro">CRIPTOGRAFAR</button>
+            </section>
+            <section class="descripto">
+                <input id="descriptografia" type="text" placeholder="Sua mensagem" name="descriptografar">
+                <button class="cripto__btn" onclick="descriptografar()" id="claro">DESCRIPTOGRAFAR</button>
+            </section>
         </section>
     </main>
     <footer class="rodape">

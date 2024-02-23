@@ -2,3 +2,127 @@
     margin: 0;
     padding: 0;
 }
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo__unico {
+    display: inline-block;
+    text-align: center;
+    padding: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.div__texto {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    min-width: 400px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.texto__cripto {
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    word-wrap: break-word;
+    padding: 1em;
+    margin: 1em;
+    border: 2px;
+    font-size: 1.3em;
+    font-style: italic;
+    font-family: monospace;
+}
+
+.div__botao {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.btn__copiar {
+    border: none;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 1em, 1em;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px, 2px;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
+
+.btn__copiar:hover {
+    background-color: #d4d4d4;
+}
+
+.cripto__pai {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cripto {
+    display: inline;
+    padding: 1em;
+
+}
+
+.descripto {
+    display: inline;
+    padding: 1em;
+
+}
+
+#criptografia {
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+#descriptografia {
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.cripto__btn {
+    border: none;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 1em, 1em;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px, 2px;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
+
+.cripto__btn:hover {
+    background-color: #d4d4d4;
+}
+
+.rodape {
+    position: relative;
+    bottom: 0;
+    top: 15em;
+
+}
+
+.rodape__desenvolvedor {
+    text-align: center;
+}
